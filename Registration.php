@@ -3,13 +3,13 @@
 <head>
 	<title>Registration</title>
 	<link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-	<link rel="stylesheet" type="text/css" href="reg.css">
+	<link rel="stylesheet" type="text/css" href="Registration.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 
-	<img src="MyHomecareLogo.png" alt="HomeCare.in" class="l" style="width: 19%">
+	<img src="img/MyHomecareLogo.png" alt="HomeCare.in" class="l" style="width: 19%">
 	
 	<form>
 		<h1 style="text-align: center;">Create Account</h1>
@@ -56,7 +56,7 @@
 		<section>
 			<div class="padd">
 				<label><strong>Password</strong></label><br>
-				<input type="Password" name="pswd" minlength="6" autocomplete="off" required="" placeholder="Enter Atleast 6 Character" class="w"><img src="info.png" class="i" alt="info">
+				<input type="Password" name="pswd" minlength="6" autocomplete="off" required="" placeholder="Enter Atleast 6 Character" class="w"><img src="img/info.png" class="i" alt="info">
 				<samp>Password must be atleast 6 character</samp>
 			</div>
 		</section>
@@ -70,7 +70,7 @@
 		</section>
 
 		<section>
-			<img src="divide.png" alt="line" class="line">
+			<img src="img/divide.png" alt="line" class="line">
 		</section>
 
 		<section>

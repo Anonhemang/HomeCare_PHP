@@ -3,13 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="Login.css">
     <title>Login</title>
 </head>
 <body>
     
     <div class="p">
-    <img src="MyHomecareLogo.png" alt="HomeCare.in" class="l">
+    <img src="img/MyHomecareLogo.png" alt="HomeCare.in" class="l">
     </div>
 
     <form>
@@ -32,7 +32,7 @@
     </form>
 
     <section>
-        <img src="loginlinee.png" alt="line" class="ll">
+        <img src="img/loginlinee.png" alt="line" class="ll">
     </section>
 
     <section>

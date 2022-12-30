@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="contact.css">
     <title>Contact Us</title>
 </head>
-<body>
+<body style="background-image: url(img/map.jpg);">
                                                               <h1>Contact Us</h1>
     <form>
         <table cellspacing="20" align="left">
@@ -50,7 +50,7 @@
             <table align="center">
                 <tr>
                     <td>
-                        <a href="tel:+917990391513">  <img src="call.png" alt="Call" title="Call"></a>
+                        <a href="tel:+917990391513">  <img src="img/call.png" alt="Call" title="Call"></a>
                  
                     </td>
                     
@@ -62,7 +62,7 @@
 
                 <tr>
                     <td>
-                        <a href="mailto:210510110099@paruluniversity.ac.in"><img src="mail.png" alt="Mail" title="Mail"></a>
+                        <a href="mailto:210510110099@paruluniversity.ac.in"><img src="img/mail.png" alt="Mail" title="Mail"></a>
                     </td>
 
                     <td>
@@ -73,7 +73,7 @@
                 <tr>
                     <td>
                         <a href="https://www.google.com/maps/dir/22.3116793,73.1939609/checkmate+security/@22.318182,73.1883726,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395fcf36c0000001:0x42409c0231a1128f!2m2!1d73.1901351!2d22.3241986" target="_blank"> 
-                        <img src="location.png" alt="Location" title="Location"></a>
+                        <img src="img/location.png" alt="Location" title="Location"></a>
                     </td>
 
                     <td>
