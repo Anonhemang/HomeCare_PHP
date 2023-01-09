@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+ 
+
+.Main_body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/*                                      ------------------------ Navigation Bar ----------------------------                   */
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #6b306b;
+    overflow: hidden;
+    
+    
+}
+
+
+a{
+    height: 35px;
+    text-decoration: none;
+    padding: 5px 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+
+a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+
+.logo{
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+
+.select_services{
+    height: auto;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+.designTop{
+    height: 50px;
+    width: 500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.designBottom{
+    height: 50px;
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Castellar;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*                                                       -----------------Maid----------------------                                */
+.maid{
+    height: auto;
+    width: 100%;
+
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Castellar;
+}
+
+
+.head_line{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+}
+
+
+.maid_content{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(220, 220, 210);
+}
+
+
+.maid_img{
+    height: 645px;
+    width: 500px;
+    float: left;
+}
+
+
+table{
+    font-family: Century Gothic;
+    border:1px solid black;
+    background-color: rgb(213, 213, 191);   
+}
+
+
+td{
+    padding: 10px 0;
+}
+
+
+.tbl_checkbox{
+    margin-left: 200px;
+}
+
+
+.tbl_input{
+    width: 830px;
+    height: 31px;
+    outline: none;
+}
+
+
+.tbl_input:focus{
+    background-color: gray;
+    color: aliceblue;
+    box-shadow: 35px 12px 15px black;
+}
+
+
+.tbl_h5{
+    font-size: larger;
+}
+
+
+.tbl_h6{
+    font-size: medium;
+}
+
+
+.input_radio{
+    width: 150px;
+    height: 20px;
+    
+}
+
+
+.input_button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    float: right;
+}
+
+
+.tbl_confirm{
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+.tbl_confirm:hover{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+/*                                          --------------------- Security ---------------------                                    */
+.security{
+    margin-top: 30px;
+    height: auto;
+    width: auto;
+}
+
+
+.security_content{
+    height: auto;
+    width: auto;
+}

@@ -9,7 +9,7 @@
     <title>Home Page</title>
 </head>
 <body>
-
+<!---------------------------------------------- Navigation Bar ------------------------------------------------------------------>
     <div class="bg">
                 <div class="topnav" id="home">
                     <a href="#home">Home</a>
@@ -21,7 +21,7 @@
                     <a href="Login.php" id="right">Login</a>
                 </div>
 
-
+<!------------------------------------------------------ Image Change ----------------------------------------------------------------->
                  <img src="img/Home1.jpg" id="image" >
 
                 <script type="text/javascript" id="home">
@@ -39,7 +39,7 @@
 
 
 
-
+<!----------------------------------------------------------------- What we Offer ------------------------------------------------------------>
     <div class="offer">
                 <div class="global">
                          <h3 id="WWO" class="heading_font">What We Offer?</h3>
@@ -48,7 +48,7 @@
                                         <img src="img/maid.png" title="Book Me!" style="width: auto; height: 300px;">
                                     </i>
                                     <h3>Maid</h3>
-                                    <a href="Service.php"><button class="wwo">Book Now</button></a>
+                                    <a href="Demo_S.php"><button class="wwo">Book Now</button></a>
                             </div>
 
                             <div class="hiw">
@@ -72,7 +72,7 @@
     </div>
 
 
-
+<!------------------------------------------------------------------ How it Works -------------------------------------------------------------->
 
 
    <div class="hiw0">
@@ -113,7 +113,7 @@
     </div> 
     
 
-
+<!---------------------------------------------------------------- Difference ----------------------------------------------------------->
 
 
     <div style="background-color: #246588; height: 830px;">
@@ -149,7 +149,7 @@
 
 
 
-
+<!--------------------------------------------------- Trust ---------------------------------------------------------------------------->
     
     <div id="trustbg">
         <h3 id="trust" class="heading_font">We Are Big On Trust & Safety</h3>
@@ -177,6 +177,11 @@
 
     </div>
     
+
+
+<!------------------------------------------------------------ Contact ------------------------------------------------------------------------>
+
+
     <div class="contact" id="contact">
         <center>
            <a href="contact.php"> <button class="c">Contact Us</button></a>
