@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+}
+ 
+
+.Main_body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.Content{
+    background-color: aqua;
+}
+
+
+/*                                      ------------------------ Navigation Bar ----------------------------                   */
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #713b71f5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+    
+}
+
+
+a.top{
+    height: 35px;
+    text-decoration: none;
+    padding: 5px 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+
+a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+
+.logo{
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+
+.select_services{
+    height: auto;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+.designTop{
+    height: 50px;
+    width: 500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.designBottom{
+    height: 50px;
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Castellar;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*                                                       -----------------Maid----------------------                                */
+.maid{
+    height: auto;
+    width: 100%;
+
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Castellar;
+    padding-top: 20px;
+}
+
+
+.head_line{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+}
+
+
+.maid_content{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(220, 220, 210);
+}
+
+
+.maid_img{
+    height: 590px;
+    width: 500px;
+    float: left;
+}
+
+
+table{
+    font-family: Century Gothic;
+    border:1px solid black;
+    background-color: rgb(213, 213, 191);   
+    border-radius: 15px;
+}
+
+
+td.maid_td{
+    padding: 10px 0;
+}
+
+
+.tbl_checkbox{
+    margin-left: 200px;
+}
+
+
+.tbl_input{
+    width: 830px;
+    height: 31px;
+    outline: none;
+}
+
+
+.tbl_input:focus{
+    background-color: gray;
+    color: aliceblue;
+    box-shadow: 35px 12px 15px black;
+}
+
+
+.tbl_input:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.tbl_h5{
+    font-size: larger;
+}
+
+
+.tbl_h6{
+    font-size: medium;
+}
+
+
+.input_radio{
+    width: 150px;
+    height: 20px;
+    
+}
+
+
+.input_button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    float: right;
+}
+
+a.maid{
+    float: right;
+    background-color: rgba(240, 248, 255, 0);
+    width: 0px;
+    height: auto;
+}
+
+
+.tbl_confirm{
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+.tbl_confirm:hover{
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
+/*                                          --------------------- Security ---------------------                                    */
+.security{
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    overflow:auto;
+
+}
+
+.headline{
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+
+}
+.security_content{
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: rgb(220, 220, 210);
+}
+
+
+td.security_td{
+    padding: 10px 5px;
+}
+
+
+select{
+    width: 800px;
+    height: 80px;
+    background-color: aliceblue;
+    font-size: x-large;
+    border-radius: 20px;
+}
+
+
+select:focus{
+    background-color: gray;
+}
+select:hover{
+    background-color: lightgray;
+}
+
+
+option{
+    font-size: larger;
+    border-radius: 20px;
+}
+
+
+input.date{
+    width: 790px;
+    height: 80px;
+    font-size: x-large;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+input.date:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+
+input.submit{
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+input.submit:hover{
+    background-color: lightgreen;
+}
+
+
+.security_img{
+    height: 510px;
+    width: auto;
+    float: right;
+}
+
+
+
+/*                                                       ---------------- Cleaner ----------------                                     */
+
+
+.cleaner{
+    height: auto;
+    width: 100%;
+    margin-top: 55px;
+
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Castellar;
+}
+
+
+.head_line{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+}
+
+
+.cleaner_content{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(220, 220, 210);
+}
+
+
+.cleaner_img{
+    height: 565px;
+    width: 500px;
+    float: left;
+}
+
+
+table{
+    font-family: Century Gothic;
+    border:1px solid black;
+    background-color: rgb(213, 213, 191);   
+    border-radius: 15px;
+}
+
+
+td.cleaner_td{
+    padding: 10px 0;
+}
+
+
+
+
+
+.cleaner_tbl_input{
+    width: 830px;
+    height: 31px;
+    outline: none;
+}
+
+
+.cleaner_tbl_input:focus{
+    background-color: gray;
+    color: aliceblue;
+    box-shadow: 35px 12px 15px black;
+}
+
+
+.cleaner_tbl_input:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.cleaner_tbl_h5{
+    font-size: larger;
+}
+
+
+.cleaner_tbl_h6{
+    font-size: medium;
+}
+
+
+.cleaner_input_button{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    float: right;
+}
+
+
+
+.cleaner_tbl_confirm{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.cleaner_tbl_confirm:hover{
+    background-color: lightgreen;
+}
+
+
+/*                                         -------------------- End Of Cleaner ----------------------                         */
+
+
+
+/*                                             -------------------- Service ----------------------                         */
+
+
+.service{
+    height: 50px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+
+a.charges{
+    text-decoration: none;
+}
+
+
+button.service{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: medium;
+    
+}
+
+
+button.service:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
