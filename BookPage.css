@@ -442,6 +442,7 @@ td.cleaner_td{
 
 a.charges{
     text-decoration: none;
+    cursor: default;
 }
 
 
@@ -462,4 +463,5 @@ button.service{
 button.service:hover{
     background-color: aqua;
     color: aliceblue;
+    cursor: pointer;
 }

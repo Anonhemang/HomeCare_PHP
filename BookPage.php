@@ -347,7 +347,9 @@
                 <!-------------------------------------------------- End Of Cleaner ---------------------------------------------------------->
         </div>
         <div class="service" id="Charges">
+            <center>
             <a href="#" class="charges"><button class="service">Service Charges</button></a>
+            </center>
         </div>
     </div>
 </body>
