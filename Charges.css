@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+.MainBody{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/*   ---------------------------------------------- Navigation Bar ----------------------------------------------------------- */
+.nav{
+    height: 40px;
+    width: 100%;
+    background-color: #713b71f5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;   
+}
+
+
+
+a.top{
+    height: 35px;
+    text-decoration: none;
+    padding: 5px 50px;
+    text-align: center;
+    display: block;
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+
+a:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+
+.logo{
+    height: 20px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+}
+
+
+
+/*  ------------------------------------------------- Content  ------------------------------------------------------------------*/
+
+
+.select_services{
+    height: auto;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+.designTop{
+    height: 50px;
+    width: 500px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.designBottom{
+    height: 50px;
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.head{
+    text-align: center;
+    font-size: 60px;
+    font-family: Castellar;
+}
+
+/*    --------------------------------------------------- Maid ---------------------------------------------------------           */
+
+.Main{
+    height: auto;
+    width: 100%;
+}
+
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Castellar;
+    padding-top: 20px;
+}
+
+
+
+.head_line{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 400px;   
+}
+
+
+
+.ourcharges{
+    height:auto;
+    width: 600px;
+    border: 2px solid black;
+    float: right;
+}
+
+
+h1.charges{
+    font-weight: 100;
+}
+
+ul{
+    border-bottom: 1px solid gray;
+}

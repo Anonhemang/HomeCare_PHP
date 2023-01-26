@@ -97,6 +97,14 @@
                                     </tr>
 
                                     <tr>
+                                        <td></td>
+                                        <td colspan="2" class="maid_td">
+                                            <input type="radio" name="Shift" id="time">Full Time
+                                            <input type="radio" name="Shift" id="time"  class="tbl_checkbox">Part Time
+                                        </td>
+                                    </tr>
+
+                                    <tr>
                                         <td colspan="2" class="maid_td"><h5 class="tbl_h5">Want Washroom Cleaner?</h5></td>
                                     </tr>
 
