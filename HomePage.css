@@ -37,7 +37,7 @@
     padding: 15px 15px;
     height: 20px;
     box-shadow: 0 2px 2px 0 black;
-    width: 50px;
+    width: fit-content;
     margin-right:50px ;
     overflow: visible;
     opacity: 0.8;

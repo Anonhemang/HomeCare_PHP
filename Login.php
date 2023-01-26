@@ -27,7 +27,7 @@
             </div>
         </section>
         <section>
-           <a href="HomePage.php"><button type="submit" value="Continue" style="width: 100%;" class="c"> <strong>Continue</strong></button></a>
+           <a href="HomePageAfterLogin.php"><button type="submit" value="Continue" style="width: 100%;" class="c"> <strong>Continue</strong></button></a>
         </section>
     </form>
 

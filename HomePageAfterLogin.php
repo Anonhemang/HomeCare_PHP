@@ -18,7 +18,7 @@
                     <a href="#difference">Why Us</a>
                     <a href="#trust">Trust Factor</a>
                     <a href="#contact">Contact Us</a>
-                    <a href="Login.php" id="right">Login</a>
+                    <a href="#" style="float: right;">Hi!,UserName</a>
                 </div>
 
 <!------------------------------------------------------ Image Change ----------------------------------------------------------------->
@@ -48,7 +48,7 @@
                                         <img src="img/maid.png" title="Book Me!" style="width: auto; height: 300px;">
                                     </i>
                                     <h3>Maid</h3>
-                                    <button class="wwo" onclick="alert('Please Login')">Book Now</button>
+                                    <a href="BookPage.php"><button class="wwo">Book Now</button></a>
                             </div>
 
                             <div class="hiw">
@@ -56,7 +56,7 @@
                                         <img src="img/security.png" title="Book Me!" style="width: auto; height: 400px;">
                                     </i>
                                     <h3>Security</h3>
-                                    <button class="wwo" onclick="alert('Please Login')">Book Now</button>
+                                    <a href="BookPage.php"><button class="wwo">Book Now</button></a>
                             </div>
 
 
@@ -65,7 +65,7 @@
                                         <img src="img/cleaner.png" title="Book Me!" style="width: auto; height: 270px;">
                                     </i>
                                     <h3>One Time Cleaner</h3>
-                                    <button class="wwo" onclick="alert('Please Login')">Book Now</button>
+                                    <a href="BookPage.php"><button class="wwo">Book Now</button></a>
                             </div>
 
                 </div>
