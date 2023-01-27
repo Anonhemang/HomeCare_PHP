@@ -1,3 +1,10 @@
+<?php
+include("Connection.php");
+error_reporting(0)
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,3 +86,20 @@
 	</form>
 </body>
 </html>
+
+
+
+
+
+
+
+<?php
+$name = $_GET['CustomerName'];
+$mob = $_GET['PhoneNumber'];
+$mail = $_GET['mail'];
+$pswd = $_GET['pswd'];
+
+
+$query = "INSERT INTO LOGIN VALUES ('$name','$mob','$mail','$pswd')";
+$data = mysqli_query($conn,$query)
+?>
