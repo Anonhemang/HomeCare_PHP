@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" type="text/css" href="Login.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Login</title>
 </head>
 <body>
@@ -12,12 +12,12 @@
     <img src="img/MyHomecareLogo.png" alt="HomeCare.in" class="l">
     </div>
 
-    <form>
+    <form method="post" action="#">
         <h1 style="text-align: center;">Login</h1>
         
         <section>
             <div class="padd">
-            <input type="email" name="email" autocomplete="off" required="" placeholder="E-mail" class="w">
+            <input type="email" name="mail" autocomplete="off" required="" placeholder="E-mail" class="w">
             </div>
         </section>
 
@@ -27,7 +27,7 @@
             </div>
         </section>
         <section>
-           <a href="HomePageAfterLogin.php"><button type="submit" value="Continue" style="width: 100%;" class="c"> <strong>Continue</strong></button></a>
+           <input type="submit" value="Continue" name="Continue" style="width: 100%;" class="c"> 
         </section>
     </form>
 
@@ -40,3 +40,43 @@
     </section>
 </body>
 </html>
+
+
+
+<?php
+    include("connection.php");
+
+    if (isset($_POST['Continue'])) {
+
+    	$mail=$_POST['mail'];
+    	$pswd=$_POST['pswd'];
+        
+    	
+    	$query = "SELECT * FROM login WHERE mail = '$mail' && password = '$pswd'";
+    	$data=mysqli_query($conn,$query);
+
+    	$total=mysqli_num_rows($data);
+    	//echo $total;
+
+    	if ($total == 1) 
+    	{
+    		//echo "Login Ok";
+    		header('location:HomePageAfterLogin.php');
+    	}
+
+    	else
+    	{
+    		echo '<script>alert("Login Failed")</script>';
+    	}
+    
+        
+
+
+    }
+
+
+
+   
+  
+
+?>
