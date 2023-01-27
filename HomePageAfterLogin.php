@@ -1,3 +1,9 @@
+<?php
+include("Connection.php");
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,14 +17,24 @@
 <body>
 <!---------------------------------------------- Navigation Bar ------------------------------------------------------------------>
     <div class="bg">
+
+              
                 <div class="topnav" id="home">
+
+                <?php
+                    $sel = ("SELECT * FROM login");
+                    $query = mysqli_query($conn, $sel);
+                    $resul = mysqli_fetch_assoc($query);
+                ?>
+
+
                     <a href="#home">Home</a>
                     <a href="#WWO">What We Offer</a>
                     <a href="#HIW">How It Works</a>
                     <a href="#difference">Why Us</a>
                     <a href="#trust">Trust Factor</a>
                     <a href="#contact">Contact Us</a>
-                    <a href="#" style="float: right;">Hi!,UserName</a>
+                    <a href="#" style="float: right;">Hi!, <?php echo $resul['Name']; ?>  </a>
                 </div>
 
 <!------------------------------------------------------ Image Change ----------------------------------------------------------------->
