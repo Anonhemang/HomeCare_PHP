@@ -1,5 +1,5 @@
 body{
-    background-image:url(img/bg2.jpeg);
+    background-image:url(img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,12 +8,14 @@ body{
 form{
         border: 20px #e9e9e9;
         width: 270px;
-        height: 350px;
+        height: 300px;
         padding: 14px 28px;
         outline-style: groove;
         outline-color: #e9e9e9;
         margin-left: 400px;
         margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
         border-radius: 10px;
         position: sticky;
 }
@@ -45,10 +47,11 @@ input:focus{
 
 img.l{
     display: block;
- margin-left: 400px;
- margin-right: auto;
- position: sticky;
- height: 150px;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 110px;
+    position: sticky;
+    height: 150px;
 }
 
 .p{
@@ -95,10 +98,15 @@ button:hover.link{
     box-shadow: 0 0 6px;
 }
 .link{
-    margin-left: 400px;
-    width: 300px;
+    margin-left: 430px;
+    margin-right: auto;
+    width: 270px;
     height: 31px;
     margin-top: 20px;
     opacity: 0.5;
 
+}
+
+h1{
+    color: aliceblue;
 }

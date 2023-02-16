@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" type="text/css" href="Login.css">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Login</title>
 </head>
 <body>
@@ -31,12 +31,9 @@
         <section>
            <input type="submit" value="Continue" name="Continue" style="width: 100%;" class="c"> 
         </section>
+
+        
     </form>
-
-    <section>
-        <img src="img/loginlinee.png" alt="line" class="ll">
-    </section>
-
     <section>
         <a href="Registration.php"> <button type="submit" class="link">Create Your Account</button></a>
     </section>

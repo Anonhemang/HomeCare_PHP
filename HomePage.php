@@ -19,6 +19,7 @@
                     <a href="#trust">Trust Factor</a>
                     <a href="#contact">Contact Us</a>
                     <a href="Login.php" id="right">Login</a>
+                    <a href="AdminLoginPage.php" id="right">Admin Login</a>
                 </div>
 
 <!------------------------------------------------------ Image Change ----------------------------------------------------------------->

@@ -66,9 +66,31 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 
+
+$sql = "SELECT * FROM workers";
+$result = mysqli_query($conn, $sql);
+
+// Display the data in a table
+if (mysqli_num_rows($result) > 0) {
+    echo "<h1>Information of the Workers</h1>";
+    echo "<table>";
+    echo "<tr><th>Name</th><th>Age</th><th>Mobile</th><th>ID</th><th>ID Number</th><th>Address</th><th>Job Position</th></tr>";
+    while ($row = mysqli_fetch_assoc($result)) {
+        echo "<tr><td>".$row['Name']."</td><td>".$row['Age']."</td><td>".$row['Mobile']."</td><td>".$row['ID']."</td><td>".$row['IDNum']."</td><td>".$row['Address']."</td><td>".$row['Job']."</td></tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+
 // Close the database connection
 mysqli_close($conn);
 ?>
+
+
+    <input type="submit" value="Add Worker"> 
+    <input type="Submit" value="Remove Worker">
     </body>
 </html>
+
 

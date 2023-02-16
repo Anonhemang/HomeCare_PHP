@@ -1,5 +1,5 @@
 body{
-    background-image:url(img/bg2.jpeg);
+    background-image:url(img/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,7 +8,7 @@ body{
 form{
 	border: 10px #e9e9e9;
 	width: 300px;
-	height: 530px;
+	height: 550px;
 	padding: 14px 28px;
 	outline-style: groove;
 	outline-color: #e9e9e9;
@@ -16,6 +16,14 @@ form{
 	margin-right: auto;
 	border-radius: 10px;
 	position: sticky;
+}
+
+h1{
+	color: #e9e9e9;
+}
+label{
+	color: #e9e9e9;
+	font-size: large;
 }
 
 input{
@@ -29,10 +37,10 @@ input.w{
 }
 
 img.l{
-	 display: block;
-  margin-left: 430px;
-  margin-right: auto;
-  position: sticky;
+	display: block;
+  	margin-left: 430px;
+  	margin-right: auto;
+  	position: sticky;
 }
 
 img.i{
@@ -41,6 +49,7 @@ img.i{
 
 samp{
 	font-size: 15px;
+	color: #e9e9e9;
 }
 
 
@@ -71,6 +80,7 @@ input:hover{
 
 p{
 	font-size: 15px;
+	color: #e9e9e9;
 }
 
 
@@ -101,4 +111,9 @@ input:focus{
 	padding-left: 10px;
 	border-radius: 10px;
 	outline: none;
+}
+
+h5{
+	color: #e9e9e9;
+	font-size: small;
 }
