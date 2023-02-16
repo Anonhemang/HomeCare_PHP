@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="Login.css">
     <title>Login</title>
 </head>
 <body>
@@ -12,12 +12,14 @@
     <img src="img/MyHomecareLogo.png" alt="HomeCare.in" class="l">
     </div>
 
-    <form method="post" action="#">
+    <form method="POST">
         <h1 style="text-align: center;">Login</h1>
         
+       
+
         <section>
             <div class="padd">
-            <input type="email" name="mail" autocomplete="off" required="" placeholder="E-mail" class="w">
+            <input type="textbox" name="mail" autocomplete="off" required="" placeholder="E-mail" class="w">
             </div>
         </section>
 
@@ -48,10 +50,11 @@
 
     if (isset($_POST['Continue'])) {
 
-    	$mail=$_POST['mail'];
+   
+        $mail=$_POST['mail'];
     	$pswd=$_POST['pswd'];
         
-    	
+        
     	$query = "SELECT * FROM login WHERE mail = '$mail' && password = '$pswd'";
     	$data=mysqli_query($conn,$query);
 

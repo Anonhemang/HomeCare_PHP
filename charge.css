@@ -88,9 +88,10 @@ a:hover{
 
 /*    --------------------------------------------------- Maid ---------------------------------------------------------           */
 
-.Main{
+.Maid{
     height: auto;
     width: 100%;
+    background-color: #00bbe1;
 }
 
 
@@ -116,9 +117,10 @@ h2{
 
 .ourcharges{
     height:auto;
-    width: 600px;
+    width: 100%;
     border: 2px solid black;
-    float: right;
+    
+    background-color:rgb(186, 57, 57);
 }
 
 
@@ -128,4 +130,43 @@ h1.charges{
 
 ul{
     border-bottom: 1px solid gray;
+  
+}
+
+
+h1 {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+/*------------------------------------------------------------------------ Contact ----------------------------------------------*/
+.contact{
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: palegoldenrod;
+}
+button.c{
+    
+    color: #00bbe1;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: large;
+}
+
+
+button:hover{
+    background-color: #00bbe1;
+    color: black;
 }

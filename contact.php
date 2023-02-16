@@ -1,3 +1,8 @@
+<?php
+include("connection.php");
+error_reporting(0);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,25 +20,25 @@
             
             <tr>
                 <td>
-                    <input type="text" placeholder="Your Name" required="" autocomplete="off">
+                    <input type="text" placeholder="Your Name" required="" autocomplete="off" name="name">
                 </td>
             </tr>
             
             <tr>
                 <td>
-                    <input type="email" placeholder="Your Email" required="" autocomplete="off">
+                    <input type="email" placeholder="Your Email" required="" autocomplete="off" name="Email">
                 </td>
             </tr>
             
             <tr>
                 <td>
-                    <input type="tel" placeholder="Your Phone Number" maxlength="10" minlength="10" required="" autocomplete="off">
+                    <input type="tel" placeholder="Your Phone Number" maxlength="10" minlength="10" required="" autocomplete="off" name="number">
                 </td>
             </tr>
             
             <tr>
                 <td>
-                    <textarea placeholder="Describe Your Issue...." required="" autocomplete="off"></textarea>
+                    <textarea placeholder="Describe Your Issue...." required="" autocomplete="off" name="issue"></textarea>
                 </td>
             </tr>
             
@@ -77,7 +82,7 @@
                     </td>
 
                     <td>
-                        <a href="https://www.google.com/maps/dir/22.3116793,73.1939609/checkmate+security/@22.318182,73.1883726,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395fcf36c0000001:0x42409c0231a1128f!2m2!1d73.1901351!2d22.3241986">GF 6, Amaan Tower,<br> Abbas Tyabji Rd, Suvas Colony,<br> Fatehgunj, Vadodara,<br> Gujarat 390002</a>
+                        <a href="https://www.google.com/maps/dir/22.3116793,73.1939609/checkmate+security/@22.318182,73.1883726,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x395fcf36c0000001:0x42409c0231a1128f!2m2!1d73.1901351!2d22.3241986" target="_blank">GF 6, Amaan Tower,<br> Abbas Tyabji Rd, Suvas Colony,<br> Fatehgunj, Vadodara,<br> Gujarat 390002</a>
                     </td>
                 </tr>
                 
@@ -91,3 +96,18 @@
 
 </body>
 </html>
+
+
+
+
+
+<?php
+$name = $_GET['name'];
+$Email = $_GET['Email'];
+$mob = $_GET['number'];
+$issue = $_GET['issue'];
+
+
+$query = "insert into contactpage values ('$name','$Email','$mob','$issue')";
+$data = mysqli_query($conn,$query)
+?>

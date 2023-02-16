@@ -1,6 +1,6 @@
 <?php
-include("Connection.php");
-error_reporting(0)
+include('connection.php');
+error_reporting(0);
 ?>
 
 
@@ -10,7 +10,7 @@ error_reporting(0)
 <head>
 	<title>Registration</title>
 	<link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-	<link rel="stylesheet" type="text/css" href="Registration.css">
+	<link rel="stylesheet" type="text/css" href="registration.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -100,6 +100,6 @@ $mail = $_GET['mail'];
 $pswd = $_GET['pswd'];
 
 
-$query = "INSERT INTO LOGIN VALUES ('$name','$mob','$mail','$pswd')";
+$query = "insert into login values ('$name','$mob','$mail','$pswd')";
 $data = mysqli_query($conn,$query)
 ?>

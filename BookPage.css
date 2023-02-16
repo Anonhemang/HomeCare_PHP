@@ -139,7 +139,7 @@ h2{
 
 
 .maid_img{
-    height: 590px;
+    height: 630px;
     width: 500px;
     float: left;
 }
@@ -255,6 +255,7 @@ a.maid{
     display: block;
     background-color: rgb(220, 220, 210);
 }
+ 
 
 
 td.security_td{
@@ -313,8 +314,8 @@ input.submit:hover{
 
 
 .security_img{
-    height: 510px;
-    width: auto;
+    height: 520px;
+    width: 535px;
     float: right;
 }
 
@@ -357,7 +358,7 @@ h2{
 
 
 .cleaner_img{
-    height: 565px;
+    height: 570px;
     width: 500px;
     float: left;
 }

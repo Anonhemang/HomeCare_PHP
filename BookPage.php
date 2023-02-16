@@ -1,5 +1,6 @@
 <?php
-
+include("connection.php");
+error_reporting(0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" href="BookPage.css">
+    <link rel="stylesheet" href="Bookpage.css">
     <title>Book Your Service</title>
 </head>
 
@@ -53,12 +54,16 @@
                                                 <!------------------------- Image ---------------------------->
 
                             
-                        <img src="img\Demo_img.jpg" class="maid_img">
+                        <img src="img\bookpagemaid.jpg" class="maid_img">
                                                                 
                         <div class="maid_select">
                         <!------------------------------------------------ Maid Table --------------------------------------------------->
                             <form>
                                 <table> 
+                                    <tr>
+                                        <td>Enter Your Mail</td>
+                                        <td> <input type="email" required="" class="tbl_input"> </td>
+                                    </tr>
                                     <tr>
                                         <td class="maid_td">Select Service</td>
                                         <td class="maid_td"><input type="checkbox" name="service">Cleaning
@@ -67,33 +72,33 @@
 
                                     <tr>
                                         <td class="maid_td">Total Number Of Floors</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="floor"></td>
                                     </tr>
 
 
                                     <tr>
                                         <td class="maid_td">Number Of Rooms</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="room"></td>
                                     </tr>
 
                                     <tr>
                                         <td class="maid_td">Number Of Bedroom</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="bed"></td>
                                     </tr>
 
                                     <tr>
                                         <td class="maid_td">Number Of Kitchen</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="kitchen"></td>
                                     </tr>
 
                                     <tr>
                                         <td class="maid_td">Number Of Hall</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="hall"></td>
                                     </tr>
 
                                     <tr>
                                         <td class="maid_td">Number Of Extra Rooms</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="extra"></td>
                                     </tr>
 
                                     <tr>
@@ -114,7 +119,7 @@
 
                                     <tr>
                                         <td class="maid_td">Number Of Washroom/s</td>
-                                        <td class="maid_td"><input type="number" class="tbl_input"></td>
+                                        <td class="maid_td"><input type="number" class="tbl_input" name="washroom"></td>
                                     </tr>
 
                                     
@@ -138,6 +143,11 @@
 
 
 
+  
+
+
+
+
 
 
 
@@ -155,10 +165,16 @@
                                                 <!------------------------- Image ---------------------------->
 
 
-                                                    <img src="img\Demo_img.jpg" class="security_img">   
+                                                    <img src="img\bookpagesecurity.jpeg" class="security_img">   
                         <form>
 
                             <table>
+
+
+                                    <tr>
+                                        <td>Enter Your Mail</td>
+                                        <td> <input type="email" required="" class="tbl_input"> </td>
+                                    </tr>
                             
                             
                                 <tr>
@@ -287,13 +303,19 @@
                                                 <!------------------------- Image ---------------------------->
 
 
-                        <img src="img\Demo_img.jpg" class="cleaner_img">
+                        <img src="img\bookpagecleaner.jpeg" class="cleaner_img">
                                                                 
                         <div class="cleaner_select">
                         <!------------------------------------------------ Cleaner Table --------------------------------------------------->
                             <form>
                                 <table> 
                                 
+                                    <tr>
+                                        <td>Enter Your Mail</td>
+                                        <td> <input type="email" required="" class="tbl_input"> </td>
+                                    </tr>
+
+
                                     <tr>
                                         <td class="cleaner_td">Total Number Of Floors</td>
                                         <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
@@ -356,9 +378,28 @@
         </div>
         <div class="service" id="Charges">
             <center>
-            <a href="#" class="charges"><button class="service">Service Charges</button></a>
+            <a href="charges.php" class="charges"><button class="service">Service Charges</button></a>
             </center>
         </div>
     </div>
 </body>
 </html>
+
+
+
+
+<?php
+$service = $_GET['service'];
+$floor = $_GET['floor'];
+$room = $_GET['room'];
+$bed = $_GET['bed'];
+$kitchen = $_GET['kitchen'];
+$hall = $_GET['hall'];
+$extra = $_GET['extra'];
+$Shift = $_GET['Shift'];
+$washroom = $_GET['washroom'];
+
+
+$query = "insert into maid values ('','$service','$floor','$room','$bed','$kitchen','$hall','$extra','$Shift','$washroom')";
+$data = mysqli_query($conn,$query)
+?>
