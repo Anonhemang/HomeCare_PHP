@@ -10,7 +10,7 @@ error_reporting(0);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="img/jpg" href="img/logo.jpg">
-    <link rel="stylesheet" href="Bookpage.css">
+    <link rel="stylesheet" href="bookpage.css">
     <title>Book Your Service</title>
 </head>
 
@@ -19,9 +19,8 @@ error_reporting(0);
     <div class="Main_body">
         <!-------------------------------------- Navigation Bar --------------------------------------------------------------------------->
         <div class="nav">
-            <a href="#Maid" title="Click to view more services" class="top"><img src="img/MaidLogo.png" class="logo" alt=""> Maid</a>
-            <a href="#Security" title="Click to view more services" class="top"><img src="img/SecurityLogo.png" alt="" class="logo"> Security</a>
-            <a href="#Cleaner" title="Click to view more services" class="top"><img src="img/CleanerLogo.png" alt="" class="logo"> Cleaner</a>
+            <a href="SecurityDB.php" title="Click to view more services" class="top"><img src="img/SecurityLogo.png" alt="" class="logo"> Security</a>
+            <a href="CleanerDB.php" title="Click to view more services" class="top"><img src="img/CleanerLogo.png" alt="" class="logo"> Cleaner</a>
             <a href="#Charges" title="Click Here To View Charges"  class="top"><img src="img/charges.png" alt="" class="logo"> Charges</a>
         </div>
         
@@ -62,12 +61,12 @@ error_reporting(0);
                                 <table> 
                                     <tr>
                                         <td>Enter Your Mail</td>
-                                        <td> <input type="email" required="" class="tbl_input"> </td>
+                                        <td> <input type="email" required="" class="tbl_input" name="Mail"> </td>
                                     </tr>
                                     <tr>
                                         <td class="maid_td">Select Service</td>
-                                        <td class="maid_td"><input type="checkbox" name="service">Cleaning
-                                        <input type="checkbox" name="service" class="tbl_checkbox">Cooking</td>
+                                        <td class="maid_td"><input type="checkbox" name="service[]" value="Cleaning">Cleaning
+                                        <input type="checkbox" name="service[]" class="tbl_checkbox" value="Cooking">Cooking</td>
                                     </tr>
 
                                     <tr>
@@ -104,8 +103,8 @@ error_reporting(0);
                                     <tr>
                                         <td></td>
                                         <td colspan="2" class="maid_td">
-                                            <input type="radio" name="Shift" id="time">Full Time
-                                            <input type="radio" name="Shift" id="time"  class="tbl_checkbox">Part Time
+                                            <input type="radio" name="Shift" id="time" value="Full Time">Full Time
+                                            <input type="radio" name="Shift" id="time"  class="tbl_checkbox" value="Part Time">Part Time
                                         </td>
                                     </tr>
 
@@ -141,247 +140,12 @@ error_reporting(0);
 
 
 
-
-
-  
-
-
-
-
-
-
-
-                <!------------------------------------------------------------ Security ---------------------------------------------------------->
-                <div class="security" id="Security">
-                    <h2>Security</h2>
-                    <img src="img/HeadLine.png" alt="" class="headline">
-
-
-                    <!--------------------------------------------------------- Security Content -------------------------------------------->
-
-                    <div class="security_content">
-
-
-                                                <!------------------------- Image ---------------------------->
-
-
-                                                    <img src="img\bookpagesecurity.jpeg" class="security_img">   
-                        <form>
-
-                            <table>
-
-
-                                    <tr>
-                                        <td>Enter Your Mail</td>
-                                        <td> <input type="email" required="" class="tbl_input"> </td>
-                                    </tr>
-                            
-                            
-                                <tr>
-
-                                    <td class="security_td">
-                                        Select Your House Type
-                                    </td>
-
-
-                                    <td>
-                                        <select name="type" id="">
-                                            <option value=""></option>
-                                            <option value="Flat">Flat</option>
-                                            <option value="Society">Society</option>
-                                            <option value="Bungalow">Bungalow</option>
-                                            <option value="Tenament">Tenament</option>
-                                        </select>
-                                    </td>
-
-                                </tr>
-
-
-                                <!------------------------------------------------- Contract Period -------------------------------------------------->
-                                <tr>
-
-                                    <td class="security_td">
-                                        Contract Period
-                                    </td>
-
-                                    <td>
-                                        <select name="period" id="">
-                                            <option value=""></option>
-                                            <option value="month">1 Month</option>
-                                            <option value="3_months">3 Months</option>
-                                            <option value="6_months">6 Months</option>
-                                            <option value="1_year">1 Year</option>
-                                            <option value="self">Until You Cancle</option>
-                                        </select>
-                                    </td>
-
-                                </tr>
-
-                                <!------------------------------------------------- Shift -------------------------------------------------->
-                                <tr>
-
-                                    <td class="security_td">
-                                        Shift
-                                    </td>
-
-                                    <td>
-                                        <Select>
-                                            <option value=""></option>
-                                            <option value="Day">Day Shift</option>
-                                            <option value="Night">Night Shift</option>
-                                            <option value="Full">Full Time</option>
-                                        </Select>
-                                        
-                                    </td>
-                                
-                                </tr>
-
-                                <!------------------------------------------------- Select Date -------------------------------------------------->
-                                                    
-                                
-                                
-                                
-                                                        <!------------- Start Date ----------->
-                                <tr>
-
-                                    <td class="security_td">Select Starting Date</td>
-                                    <td>
-                                        <input type="date" class="date">
-                                    </td>
-
-                                </tr>
-                                                        <!------------- End Date ----------->
-
-                                <tr>
-
-                                    <td class="security_td">Select Last Date</td>
-                                    <td>
-                                    <input type="date" class="date">
-                                    </td>
-
-                                </tr>
-                                
-                                <!------------------------------------------------- View Rates -------------------------------------------------->
-                                
-
-
-                                <tr>
-                                    
-                                    <td colspan="2">
-                                        <input type="Submit" value="Confirm" class="submit">
-                                    </td>
-
-                                </tr>
-
-                            </table>
-                            
-                        </form>
-                            
-                        
-                    </div>
-                </div>
-
-                <!--------------------------------------------------------- End Of Security ---------------------------------------------------->
-
-
-
-
-
-
-
-
-                <!------------------------------------------------------------- Cleaner -------------------------------------------------------->
-
-            
-                <div class="cleaner" id="Cleaner">
-                    <h2>Cleaner</h2>
-                    <img src="img/HeadLine.png" alt="" class="head_line">
-                    <!----------------------------------------------------- Cleaner Content ------------------------------------------------------------>        
-                    <div class="cleaner_content">
-
-
-                                                <!------------------------- Image ---------------------------->
-
-
-                        <img src="img\bookpagecleaner.jpeg" class="cleaner_img">
-                                                                
-                        <div class="cleaner_select">
-                        <!------------------------------------------------ Cleaner Table --------------------------------------------------->
-                            <form>
-                                <table> 
-                                
-                                    <tr>
-                                        <td>Enter Your Mail</td>
-                                        <td> <input type="email" required="" class="tbl_input"> </td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <td class="cleaner_td">Total Number Of Floors</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Rooms</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Bedroom</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Kitchen</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Hall</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Extra Rooms</td>
-                                        <td class="cleaner_td"><input type="number" class="cleaner_tbl_input"></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td colspan="2" class="cleaner_td"><h5 class="cleaner_tbl_h5">Want Washroom Cleaner?</h5></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td colspan="2" class="cleaner_td"><h6 class="cleaner_tbl_h6">If Yes, Please Fill Data Below:</h6></td>
-                                    </tr>
-
-                                    <tr>
-                                        <td class="cleaner_td">Number Of Washroom/s</td>
-                                        <td class="cleaner_td"><input type="number" class="tbl_input"></td>
-                                    </tr>
-
-                                
-
-                                    <tr>
-                                        <td colspan="2" class="cleaner_td"><center><input type="Submit" value="Confirm" class="cleaner_tbl_confirm"></center></td>
-                                    </tr>
-
-                                </table>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <!-------------------------------------------------- End Of Cleaner ---------------------------------------------------------->
-        </div>
-        <div class="service" id="Charges">
+    </div>
+    <div class="service" id="Charges">
             <center>
             <a href="charges.php" class="charges"><button class="service">Service Charges</button></a>
             </center>
         </div>
-    </div>
 </body>
 </html>
 
@@ -389,7 +153,11 @@ error_reporting(0);
 
 
 <?php
+
+include('connection.php');
+$Mail= $_GET['Mail'];
 $service = $_GET['service'];
+$dbservice = implode(",",$service);
 $floor = $_GET['floor'];
 $room = $_GET['room'];
 $bed = $_GET['bed'];
@@ -400,6 +168,7 @@ $Shift = $_GET['Shift'];
 $washroom = $_GET['washroom'];
 
 
-$query = "insert into maid values ('','$service','$floor','$room','$bed','$kitchen','$hall','$extra','$Shift','$washroom')";
-$data = mysqli_query($conn,$query)
+$query = "insert into maid values ('$Mail','$dbservice','$floor','$room','$bed','$kitchen','$hall','$extra','$Shift','$washroom')";
+$data = mysqli_query($conn,$query);
+
 ?>

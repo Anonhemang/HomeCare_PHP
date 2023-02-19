@@ -67,7 +67,7 @@
                                         <img src="img/security.png" title="Book Me!" style="width: auto; height: 400px;">
                                     </i>
                                     <h3>Security</h3>
-                                    <a href="BookPage.php"><button class="wwo">Book Now</button></a>
+                                    <a href="SecurityDB.php"><button class="wwo">Book Now</button></a>
                             </div>
 
 
@@ -76,7 +76,7 @@
                                         <img src="img/cleaner.png" title="Book Me!" style="width: auto; height: 270px;">
                                     </i>
                                     <h3>One Time Cleaner</h3>
-                                    <a href="BookPage.php"><button class="wwo">Book Now</button></a>
+                                    <a href="CleanerDB.php"><button class="wwo">Book Now</button></a>
                             </div>
 
                 </div>
