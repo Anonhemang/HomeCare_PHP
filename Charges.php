@@ -182,6 +182,7 @@
             <div class="contact" id="contact">
                 <center>
                         <a href="contact.php"> <button class="c">Contact Us</button></a>
+                        <a href="Payment.php"><button class="c">Make Payment</button></a>
                 </center>  
             </div>
 
