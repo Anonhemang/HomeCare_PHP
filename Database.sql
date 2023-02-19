@@ -66,7 +66,6 @@ CREATE TABLE `cleaner` (
 
 LOCK TABLES `cleaner` WRITE;
 /*!40000 ALTER TABLE `cleaner` DISABLE KEYS */;
-INSERT INTO `cleaner` VALUES ('',0,0,0,0,0,0,0),('janki@gmail.com',2,2,2,2,2,2,2),('payal@gmail.com',5,5,5,5,5,5,5);
 /*!40000 ALTER TABLE `cleaner` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -92,7 +91,6 @@ CREATE TABLE `contactpage` (
 
 LOCK TABLES `contactpage` WRITE;
 /*!40000 ALTER TABLE `contactpage` DISABLE KEYS */;
-INSERT INTO `contactpage` VALUES ('','',0,''),('harry','harry@gmail.com',7895462130,'want a maid'),('hhh','hem@gmail.com',7894561230,'hhhhh'),('janki','janki@gmail.com',4587459875,'Want everything');
 /*!40000 ALTER TABLE `contactpage` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -118,7 +116,6 @@ CREATE TABLE `login` (
 
 LOCK TABLES `login` WRITE;
 /*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES ('',0,'',''),('janki',7894569874,'janki@gmail.com','qwerty');
 /*!40000 ALTER TABLE `login` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -150,7 +147,6 @@ CREATE TABLE `maid` (
 
 LOCK TABLES `maid` WRITE;
 /*!40000 ALTER TABLE `maid` DISABLE KEYS */;
-INSERT INTO `maid` VALUES ('abhishek@gmail.com','Cleaning,Cooking',1,1,1,1,1,1,'Full Time',0),('janki@gmail.com','Cleaning,Cooking',2,2,2,2,2,2,'Part Time',2),('payal@gmail.com','Cleaning,Cooking',5,5,5,5,5,5,'Full Time',5);
 /*!40000 ALTER TABLE `maid` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -178,7 +174,6 @@ CREATE TABLE `security` (
 
 LOCK TABLES `security` WRITE;
 /*!40000 ALTER TABLE `security` DISABLE KEYS */;
-INSERT INTO `security` VALUES ('','','','','0000-00-00','0000-00-00'),('janki@gmail.com','Bungalow','3 months','Full','2023-02-20','2023-03-11'),('payal@gmail.com','Bungalow','3 months','Day','2023-02-22','2023-03-11');
 /*!40000 ALTER TABLE `security` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -207,7 +202,6 @@ CREATE TABLE `workers` (
 
 LOCK TABLES `workers` WRITE;
 /*!40000 ALTER TABLE `workers` DISABLE KEYS */;
-INSERT INTO `workers` VALUES ('',0,0,'',0,'',''),('nnn',21,1234567890,'Adhar Card',457854125478,'fjvwiefbvoiefhvboefhbv','Security'),('jhnb',55,6547893210,'Adhar Card',7854125698,'d6ifhogeufgyo','Maid'),('hhh',25,7894561230,'Adhar Card',458965781249,'djfvifjvbpiefvb','Security'),('jjj',21,8527419630,'Adhar Card',789458745216,'ioiefuvoqieoqiwujhpiu','maid'),('hytg',21,9632587410,'Adhar Card',587469853256,'yfityditsrujtruj','Security');
 /*!40000 ALTER TABLE `workers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -220,4 +214,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-02-19 16:18:46
+-- Dump completed on 2023-02-19 16:24:34
